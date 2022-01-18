@@ -10,7 +10,7 @@ public class AudioController : MonoBehaviour
     bool logical = true;
     int[] intArray;
     int[] intArray2 = new int[] {1,2,3,4};
-    int[] intArray3 = (1, 2, 3, 4);
+   // int[] intArray3 = {1, 2, 3, 4};
 
     List<int> list = new List<int>();
 
