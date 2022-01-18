@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b8f20d5ca50d16143afc11f5e4af6fc1, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.07229945, g: 0.050654814, b: 0.034133077, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2823,7 +2823,7 @@ GameObject:
   - component: {fileID: 1050854922}
   - component: {fileID: 1050854921}
   m_Layer: 0
-  m_Name: Collect
+  m_Name: Collectible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4981,7 +4981,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh46016
+  m_Name: pb_Mesh69992
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5795,5 +5795,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6895018335543898389, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895018335543898389, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d04167b4165d0a445bab0ce63f99c5aa, type: 3}
+    - target: {fileID: 6895018335543898389, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1880790360861277560, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
+    - {fileID: 3322635334593505573, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
