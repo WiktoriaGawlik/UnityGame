@@ -22,6 +22,8 @@ public class PickupObject : MonoBehaviour
         {
             isFound = true;
             pickupModel.SetActive(false);
+
+            Debug.Log("DZIALA");
             pickupSound.Play();
             collectParticles.Play();
         }

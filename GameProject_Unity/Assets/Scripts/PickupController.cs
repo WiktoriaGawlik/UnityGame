@@ -9,18 +9,19 @@ public class PickupController : MonoBehaviour
 
    // public TextMeshProUGUI pickupCountMesh;
 
-   // private int pickupFoundCount++ = 0;
+  // private int pickupFoundCount++ = 0;
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger enter " + other.gameObject.name);
+
         PickupObject pickup = other.gameObject.GetComponent<PickupObject>();
         if(pickup != null)
         {
-       //     pickup.OnPickupFound();
-        //    pickupFoundCount++;
+            pickup.OnPickupFound();
 
-       //     pickupCountMesh.text = pickupFoundCount.ToString();
+       //     pickupFoundCount++;
+        //    pickupCountMesh.text = pickupFoundCount.ToString();
         }
     }
 }
