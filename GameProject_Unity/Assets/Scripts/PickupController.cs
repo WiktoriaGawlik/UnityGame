@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-//using TMPro;
+using TMPro;
 using UnityEngine;
 
 
 public class PickupController : MonoBehaviour
 {
 
-   // public TextMeshProUGUI pickupCountMesh;
+    public TextMeshProUGUI pickupCountMesh;
 
-  // private int pickupFoundCount++ = 0;
+   private int pickupFoundCount = 0;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,8 +20,8 @@ public class PickupController : MonoBehaviour
         {
             pickup.OnPickupFound();
 
-       //     pickupFoundCount++;
-        //    pickupCountMesh.text = pickupFoundCount.ToString();
+            pickupFoundCount++;
+            pickupCountMesh.text = pickupFoundCount.ToString();
         }
     }
 }
