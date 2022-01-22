@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5460146803928354681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5460146803928354678}
+  m_Layer: 0
+  m_Name: Latajace_obiekty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5460146803928354678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460146803928354681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4512085, y: 2.56, z: -2.3509617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4712906792979824305}
+  - {fileID: 5460146804137043492}
+  - {fileID: 4712906793071623003}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4712906792826089317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5460146803928354678}
+    m_Modifications:
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2612085
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.65129685
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3515625
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391874, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_Name
+      value: Kosta latajaca
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+--- !u!4 &5460146804137043492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+  m_PrefabInstance: {fileID: 4712906792826089317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5460146803714848752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5460146803928354678}
+    m_Modifications:
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7512083
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.82129693
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2459617
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391874, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_Name
+      value: Kosta latajaca (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.85
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+--- !u!4 &4712906792979824305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+  m_PrefabInstance: {fileID: 5460146803714848752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5460146803891581466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5460146803928354678}
+    m_Modifications:
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2612085
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.65129685
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3515625
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 766119175914391874, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_Name
+      value: Kosta latajaca (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 948979868437129994, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.69
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+--- !u!4 &4712906793071623003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 766119175914391873, guid: 56576c41ac1690d4a948b946a70ea082, type: 3}
+  m_PrefabInstance: {fileID: 5460146803891581466}
+  m_PrefabAsset: {fileID: 0}
