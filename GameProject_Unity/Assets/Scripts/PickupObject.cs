@@ -5,9 +5,9 @@ using UnityEngine;
 public class PickupObject : MonoBehaviour
 {
     public AudioSource pickupSound;
-    public float rotationSpeed = 0.1f;
     public GameObject pickupModel;
     public ParticleSystem collectParticles;
+    public float rotationSpeed = 0.1f;
 
     private bool isFound = false;
 
