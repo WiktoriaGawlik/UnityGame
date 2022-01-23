@@ -24,7 +24,7 @@ public class PickupObject : MonoBehaviour
             pickupModel.SetActive(false);
             pickupSound.Play();
             collectParticles.Play();
-            Object.Destroy(gameObject, 1.0f);
+            Object.Destroy(gameObject, 0.4f);
         }
     }
 
