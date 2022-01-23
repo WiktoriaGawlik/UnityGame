@@ -567,17 +567,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207174969}
-  m_LocalRotation: {x: 0.0014749658, y: -0.00000024033972, z: 0.008602239, w: 0.999962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1650223446}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -47, y: 48}
-  m_SizeDelta: {x: 519.5, y: 31.1}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 3, y: 38.4}
+  m_SizeDelta: {x: 416.4, y: 31.100006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207174971
 MonoBehaviour:
@@ -2273,7 +2273,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900559204}
-  m_LocalRotation: {x: 0.0014749658, y: -0.00000024033972, z: 0.008602239, w: 0.999962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2282,8 +2282,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -47, y: 48}
-  m_SizeDelta: {x: 519.5, y: 31.1}
+  m_AnchoredPosition: {x: -47, y: 159.27}
+  m_SizeDelta: {x: 480.14, y: 63.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900559206
 MonoBehaviour:
@@ -2305,7 +2305,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You did it! Now you can finnaly fly away! '
+  m_text: 'You did it!  Press T to teleport yourslef! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5ac8f53ce53c4b94db3d5748aafeee62, type: 2}
   m_sharedMaterial: {fileID: -695199372396684835, guid: 5ac8f53ce53c4b94db3d5748aafeee62, type: 2}
@@ -3170,7 +3170,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496074185}
-  m_LocalRotation: {x: 0.0014749657, y: -0.0000002403397, z: 0.008602238, w: 0.9999619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00028181076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3178,7 +3178,7 @@ RectTransform:
   - {fileID: 1760602727}
   m_Father: {fileID: 1275831036}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.169, y: 0.001, z: 0.986}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0016174316, y: -0.18751526}
@@ -3430,7 +3430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1650223446}
   m_Layer: 0
-  m_Name: QuestQuestion
+  m_Name: QuestUndone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3453,7 +3453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 37.27}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1673654218
@@ -4240,6 +4240,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 085e09de72c27004ebaabae5b04af672, type: 3}
+--- !u!114 &2111590059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8771860976037956497, guid: d00943c2f2e99c34d97e8111a1425bc0, type: 3}
+  m_PrefabInstance: {fileID: 493031251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f9995264cd95e49bf952953cd20c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2130774334
 GameObject:
   m_ObjectHideFlags: 0
@@ -4738,6 +4749,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3511883357819322865, guid: f0705dcb7e65aeb44a2b6e9c4e0a80f5, type: 3}
+      propertyPath: UIPanelFinished
+      value: 
+      objectReference: {fileID: 838611637}
+    - target: {fileID: 3511883357819322865, guid: f0705dcb7e65aeb44a2b6e9c4e0a80f5, type: 3}
+      propertyPath: pickupController
+      value: 
+      objectReference: {fileID: 2111590059}
+    - target: {fileID: 3511883357819322865, guid: f0705dcb7e65aeb44a2b6e9c4e0a80f5, type: 3}
+      propertyPath: UIPanelNotFinished
+      value: 
+      objectReference: {fileID: 1650223445}
     - target: {fileID: 3511883357819322866, guid: f0705dcb7e65aeb44a2b6e9c4e0a80f5, type: 3}
       propertyPath: m_Name
       value: Teleport_to_ship

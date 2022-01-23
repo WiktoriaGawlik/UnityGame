@@ -10,6 +10,19 @@ public class PickupController : MonoBehaviour
     public TextMeshProUGUI pickupCountMesh;
 
    private int pickupFoundCount = 0;
+   public int pcikupOnMapCount = 6;
+
+    public bool GotAllPickups()
+    {
+        if (pickupFoundCount < pcikupOnMapCount)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {

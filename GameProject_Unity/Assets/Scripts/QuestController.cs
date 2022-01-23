@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class QuestController : MonoBehaviour
 {
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger enter " + other.gameObject.name);
