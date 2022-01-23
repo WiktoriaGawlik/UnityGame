@@ -9,7 +9,6 @@ public class TeleportToShip : MonoBehaviour
     public GameObject UIPanelNotFinished;
     public GameObject UIPanelFinished;
     public PickupController pickupController;
-    private bool isQuestFinished = false;
   
 
     private void Start()
@@ -36,13 +35,17 @@ public class TeleportToShip : MonoBehaviour
         }
     }
 
-    private void TeleportEnd()
-    {
-        if (Input.GetKeyDown(KeyCode.E) == true)
-        {
-            SceneManager.LoadScene("End");
-        }
-    }
+   // private void TeleportEnd()
+  //  {
+     //   if (pickupController.GotAllPickups() == true)
+    //    {
+     //       if (Input.GetKeyDown(KeyCode.E) == true)
+     //       { 
+      //          SceneManager.LoadScene("End"); 
+       //     }
+                
+      //  }
+  //  }
 
     public void ShowUI()
     {
