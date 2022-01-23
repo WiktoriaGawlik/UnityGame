@@ -10,7 +10,7 @@ public class PickupController : MonoBehaviour
     public TextMeshProUGUI pickupCountMesh;
 
    private int pickupFoundCount = 0;
-   public int pcikupOnMapCount = 6;
+   public int pcikupOnMapCount = 9;
 
     public bool GotAllPickups()
     {
