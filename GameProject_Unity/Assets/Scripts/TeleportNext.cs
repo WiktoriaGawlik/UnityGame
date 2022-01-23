@@ -8,7 +8,7 @@ public class TeleportNext : MonoBehaviour
         private void OnTriggerEnter(Collider collision)
         {
             if (collision.gameObject.tag == "Player")
-            {
+            {              
                 SceneManager.LoadScene("Level4");
             }
         }
